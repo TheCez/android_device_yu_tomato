@@ -20,9 +20,6 @@ $(call inherit-product, vendor/cm/config/common_mini_phone.mk)
 # Must define platform variant before including any common things
 TARGET_BOARD_PLATFORM_VARIANT := msm8939
 
-# Unofficial build ID
-TARGET_UNOFFICIAL_BUILD_ID := karthick111
-
 PRODUCT_NAME := cm_tomato
 BOARD_VENDOR := yu
 PRODUCT_DEVICE := tomato
