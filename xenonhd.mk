@@ -14,13 +14,13 @@
 
 $(call inherit-product, device/yu/tomato/full_tomato.mk)
 
-# Inherit some common CM stuff.
-$(call inherit-product, vendor/cm/config/common_mini_phone.mk)
+# Inherit some common XENONHD stuff.
+$(call inherit-product, vendor/xenonhd/config/common_full_phone.mk)
 
 # Must define platform variant before including any common things
 TARGET_BOARD_PLATFORM_VARIANT := msm8939
 
-PRODUCT_NAME := cm_tomato
+PRODUCT_NAME := xenonhd_tomato
 BOARD_VENDOR := yu
 PRODUCT_DEVICE := tomato
 
