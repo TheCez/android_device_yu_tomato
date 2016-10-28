@@ -1,0 +1,27 @@
+[
+  {
+    "repository": "TeamHorizon/android_device_yu_tomato",
+    "target_path": "device/yu/tomato",
+    "branch": "n"
+  },
+  {
+    "repository": "TeamHorizon/proprietary_vendor_yu",
+    "target_path": "vendor/yu",
+    "branch": "n"
+  },
+  {
+    "repository": "TeamHorizon/mojitokernel",
+    "target_path": "kernel/cyanogen/msm8916",
+    "branch": "n"
+  },
+  {
+    "repository": "TeamHorizon/android_device_cyanogen_msm8916-common",
+    "target_path": "device/cyanogen/msm8916-common",
+    "branch": "n"
+  },
+  {
+    "repository": "Cyanogenmod/android_device_cyanogen_msm8939-common",
+    "target_path": "device/cyanogen/msm8939-common",
+    "branch": "cm-14.0"
+  }
+]
